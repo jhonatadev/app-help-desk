@@ -46,7 +46,15 @@
                   <? if(isset($_GET['login']) && $_GET['login'] == 'erro'){ ?> 
                       
                       <div class="alert alert-danger" role="alert">
-                          Usuário ou senha inválido(s) :/
+                          Usuário ou senha inválido(s) 😓
+                      </div>
+
+                  <? } ?>   
+
+                  <? if(isset($_GET['login']) && $_GET['login'] == 'erro2'){ ?> 
+                      
+                      <div class="alert alert-danger" role="alert">
+                          Hm... O que está tentando fazer? 🤔
                       </div>
 
                   <? } ?>           
