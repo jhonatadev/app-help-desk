@@ -46,7 +46,7 @@
       </a>
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a href="logoff.php" class="nav-link">SAIR</a>
+          <a href="logoff.php" class="nav-link"> SAIR </a>
         </li>
       </ul>
     </nav>
@@ -69,7 +69,8 @@
                 if (count($chamado_dados) < 3) {
                   continue;
                 }
-              ?>              <div class="card mb-3 bg-light">
+              ?>
+              <div class="card mb-3 bg-light">
                 <div class="card-body">
 
                   <h5 class="card-title"><?=$chamado_dados[0]?></h5>
